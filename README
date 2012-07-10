@@ -1,0 +1,6 @@
+miniredis-python
+================
+
+Lightweight redis client in python
+
+Inspired by https://github.com/stulentsev/miniredis-ruby
