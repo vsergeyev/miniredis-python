@@ -4,3 +4,15 @@ miniredis-python
 Lightweight redis client in python
 
 Inspired by https://github.com/stulentsev/miniredis-ruby
+
+Usage:
+
+    import miniredis
+    
+    cli = miniredis.MiniRedis() # host/port can be set here
+    
+    cli.set('a', 1)
+    cli.get('a')
+
+    cli.sadd('b', 1, 2, 3)
+    cli.smembers('b')
