@@ -1,0 +1,8 @@
+MANIFEST
+AUTHORS
+README
+setup.py
+setup.cfg
+miniredis/__init__.py
+miniredis/miniredis.py
+miniredis/tests.py

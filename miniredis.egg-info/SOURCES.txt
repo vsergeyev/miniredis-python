@@ -1,0 +1,9 @@
+README
+setup.cfg
+miniredis/__init__.py
+miniredis/miniredis.py
+miniredis/tests.py
+miniredis.egg-info/PKG-INFO
+miniredis.egg-info/SOURCES.txt
+miniredis.egg-info/dependency_links.txt
+miniredis.egg-info/top_level.txt

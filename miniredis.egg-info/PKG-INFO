@@ -1,0 +1,30 @@
+Metadata-Version: 1.0
+Name: miniredis
+Version: 0.1
+Summary: A lightweight 20-lines redis client
+Home-page: http://github.com/vsergeyev/miniredis-python
+Author: Volodymyr Sergeyev
+Author-email: vova.sergeyev@gmail.com
+License: BSD
+Download-URL: http://github.com/vsergeyev/miniredis-python
+Description: Lightweight redis client in python
+
+Usage:
+
+    import miniredis
+    cli = miniredis.MiniRedis() # host/port can be set here
+
+    cli.set('a', 1)
+    cli.get('a')
+
+    cli.sadd('b', 1, 2, 3)
+    cli.smembers('b')
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
